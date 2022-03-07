@@ -1,0 +1,78 @@
+# Robert Smith -- Check Lab 8 Code Ouputs
+
+stages:
+    - setup
+    - build
+    - test
+
+check-file-structure:
+    stage: setup
+    tags:
+        - ugrad
+    script:
+        - test -d Lab8
+        - test -d Lab8/birthday
+        - test -d Lab8/heap
+        - test -f Lab8/birthday/birthday_debug
+        - test -f Lab8/heap/heap.c
+        - test -f Lab8/heap/heap.h
+        - test -f Lab8/heap/Makefile
+
+run-birthday:
+    stage: test
+    tags:
+        - ugrad
+    script:
+        - cp CI/objects/birthday/* Lab8/birthday/
+        - cd Lab8/birthday/
+        - test -f happy_birthday_geralt
+        - test -f example_story_out
+        - gdb -batch -x birthday_debug
+        - ../../CI/compare-memory-outputs.sh
+    timeout: 30s
+
+run-heap:
+    stage: test
+    tags:
+        - ugrad
+    script:
+        - cp CI/objects/heap/* Lab8/heap/
+        - cd Lab8/heap/
+        - rm -f heap.o heap rheap
+        - make
+        - test -f heap.o
+        - test -f heap
+        - ./heap
+    timeout: 45s
+
+run-random-heap:
+    stage: test
+    tags:
+        - ugrad
+    script:
+        - cp CI/objects/heap/* Lab8/heap/
+        - cd Lab8/heap/
+        - rm -f heap.o heap rheap
+        - make
+        - test -f heap.o
+        - test -f rheap
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap
+        - sleep 2
+        - ./rheap    
+        - sleep 2
+        - ./rheap    
+        - sleep 2
+        - ./rheap
+    timeout: 45s

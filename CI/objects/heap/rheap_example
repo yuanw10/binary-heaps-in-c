@@ -1,0 +1,40 @@
+Attempting to create a heap... Success.
+The initial size of the heap is 0.
+Prepared the following 25 random integers for the heap:
+	35 93 144 71 23 49 5 47 127 71 22 105 51 0 18 8 47 56 8 43 131 69 109 112 145 
+Inserting those 25 values...
+	Add 35... Done. The size of the heap is now 1.
+	Add 93... Done. The size of the heap is now 2.
+	Add 144... Done. The size of the heap is now 3.
+	Add 71... Done. The size of the heap is now 4.
+	Add 23... Done. The size of the heap is now 5.
+	Add 49... Done. The size of the heap is now 6.
+	Add 5... Done. The size of the heap is now 7.
+	Add 47... Done. The size of the heap is now 8.
+	Add 127... Done. The size of the heap is now 9.
+	Add 71... Done. The size of the heap is now 10.
+	Add 22... Done. The size of the heap is now 11.
+	Add 105... Done. The size of the heap is now 12.
+	Add 51... Done. The size of the heap is now 13.
+	Add 0... Done. The size of the heap is now 14.
+	Add 18... Done. The size of the heap is now 15.
+	Add 8... Done. The size of the heap is now 16.
+	Add 47... Done. The size of the heap is now 17.
+	Add 56... Done. The size of the heap is now 18.
+	Add 8... Done. The size of the heap is now 19.
+	Add 43... Done. The size of the heap is now 20.
+	Add 131... Done. The size of the heap is now 21.
+	Add 69... Done. The size of the heap is now 22.
+	Add 109... Done. The size of the heap is now 23.
+	Add 112... Done. The size of the heap is now 24.
+	Add 145... Done. The size of the heap is now 25.
+Success.
+Does the heap contain 56? Yes. Correct.
+Does the heap contain 178? No. Correct.
+Print the state of the underlying array list using heap->print:
+	0 8 5 8 35 51 18 47 22 43 69 112 105 49 23 93 47 127 56 71 131 71 109 144 145 
+Sorting the original values for comparison purposes using built in qsort function... Success.
+Remove, compare, and print 25 sorted values...
+	0 5 8 8 18 22 23 35 43 47 47 49 51 56 69 71 71 93 105 109 112 127 131 144 145 
+Success.
+Test complete.

@@ -1,0 +1,39 @@
+Attempting to create a heap... Success.
+The initial size of the heap is 0.
+Prepared the following 25 integers for the heap:
+	59 95 112 45 92 91 52 70 79 124 61 86 57 104 148 88 70 63 78 14 45 83 36 78 146 
+Inserting those 25 values...
+	Add 59... Done. The size of the heap is now 1.
+	Add 95... Done. The size of the heap is now 2.
+	Add 112... Done. The size of the heap is now 3.
+	Add 45... Done. The size of the heap is now 4.
+	Add 92... Done. The size of the heap is now 5.
+	Add 91... Done. The size of the heap is now 6.
+	Add 52... Done. The size of the heap is now 7.
+	Add 70... Done. The size of the heap is now 8.
+	Add 79... Done. The size of the heap is now 9.
+	Add 124... Done. The size of the heap is now 10.
+	Add 61... Done. The size of the heap is now 11.
+	Add 86... Done. The size of the heap is now 12.
+	Add 57... Done. The size of the heap is now 13.
+	Add 104... Done. The size of the heap is now 14.
+	Add 148... Done. The size of the heap is now 15.
+	Add 88... Done. The size of the heap is now 16.
+	Add 70... Done. The size of the heap is now 17.
+	Add 63... Done. The size of the heap is now 18.
+	Add 78... Done. The size of the heap is now 19.
+	Add 14... Done. The size of the heap is now 20.
+	Add 45... Done. The size of the heap is now 21.
+	Add 83... Done. The size of the heap is now 22.
+	Add 36... Done. The size of the heap is now 23.
+	Add 78... Done. The size of the heap is now 24.
+	Add 146... Done. The size of the heap is now 25.
+Success.
+Does the heap contain 57? Yes. Correct.
+Does the heap contain 181? No. Correct.
+Print and compare the state of the underlying array list using heap->print:
+	14 36 52 63 45 57 91 70 70 59 45 78 86 104 148 95 88 79 78 124 61 92 83 112 146 
+Remove, compare, and print 25 values...
+	14 36 45 45 52 57 59 61 63 70 70 78 78 79 83 86 88 91 92 95 104 112 124 146 148 
+Success.
+Test complete.
