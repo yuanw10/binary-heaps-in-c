@@ -1,8 +1,7 @@
 file ../../CI/objects/birthday/happy_birthday_geralt 
 
 break invite_yennefer
-break invite_vesemi
-break invite_triss
+break invite_vesemir
 break check_money
 break invite_geralt 
 
@@ -11,13 +10,14 @@ run
 set var desire = 20
 continue
 
-set var memory = malloc(sizeof(letter->text))
+set var triss.money = 1000000
 continue
 
-set var triss.money = 1000000
+set var memory = malloc(sizeof(letter->text))
 continue
 
 set var letter->invitation = !(letter->invitation)
 continue
+
 
 quit
