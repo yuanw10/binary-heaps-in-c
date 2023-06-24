@@ -1,19 +1,18 @@
 # Lab8 - Systems Programming
 
+This repository, along with two others, contains the code I wrote for the labs of Systems Programming (Winter 2022) at Dal, imported from Dal GitLab.
+
 ## A Little Story
-This repository, along with other repositories, contains the code I wrote for the labs of Systems Programming (Winter 2022) at Dal, 
-imported from Dal GitLab.
 
-This course is notorious among CS students at Dal and is regarded as one of the most challenging courses.
-
-> In the semester prior to my enrollment, the average grade for this course was an **F**. 
+As a second-year course, this course is notorious among CS students at Dal and is regarded as one of the most challenging courses. In the semester prior to my enrollment, the average grade for this course was an **F**. 
 Even in the semester I took it, about half of the students dropped out. 
 Almost everyone I know in CS has dropped it at least once, typically taking 2-3 attempts to complete this required course. 
 
 However, I was able to achieve an **A+** in this course, with :100: in all the labs.
 
 One of the main reasons why this course is so hard is its lab component :smiling_imp:
-> Each week, we were required to write code in C based on the instructions provided by the lead TA. 
+
+Each week, we were required to write code in C based on the instructions provided by the lead TA. 
 We had to learn everything on our own and complete the code according to the given requirements. 
 The assessment was based on CI/CD pipelines that automatically checked if the output results and expected values matched. 
 To receive a full grade, all jobs in the pipelines had to pass, and any failure would result in a grade of 0.
